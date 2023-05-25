@@ -1,0 +1,79 @@
+import {StyleSheet} from 'react-native';
+import {ThemeManager} from '../../../../ThemeManager';
+import {colors, Fonts} from '../../../theme';
+
+export default StyleSheet.create({
+  screenStyle: {
+    flex: 1,
+    // justifyContent: 'center',
+    // alignItems: 'center',
+  },
+  title: {
+    fontSize: 14,
+    fontFamily: Fonts.regular,
+    marginHorizontal: 16,
+    marginTop: 20,
+    color: colors.searchPlaceHolder,
+  },
+  inputTitle: {
+    marginHorizontal: 16,
+    bottom: 6,
+    marginTop: 30,
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 20,
+    marginHorizontal: 20,
+  },
+  searchView: {
+    backgroundColor: ThemeManager.colors.inputColor,
+    borderRadius: 20,
+    height: 40,
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    flexDirection: 'row',
+    flex: 1,
+    paddingHorizontal: 10,
+  },
+  cancelText: {
+    fontFamily: Fonts.regular,
+    fontSize: 14,
+    color: ThemeManager.colors.selectedTextColor,
+    marginLeft: 10,
+  },
+
+  modelContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#00000050',
+  },
+  modelContainerChildOTP: {
+    backgroundColor: 'white',
+    width: '100%',
+    alignItems: 'center',
+    bottom: '25%',
+    borderTopEndRadius: 20,
+    borderTopLeftRadius: 20,
+  },
+  otpInput: {
+    borderWidth: 1,
+    borderColor: '#cfcfcf',
+    borderRadius: 5,
+    padding: 5,
+    textAlign: 'center',
+    marginBottom: 5,
+    margin: 5,
+    color: colors.searchPlaceHolder,
+    fontFamily: Fonts.regular,
+    width: 50,
+  },
+  errorMessageStyle: {
+    fontSize: 15,
+    color: 'red',
+    alignSelf: 'center',
+    marginBottom: 10,
+  },
+});

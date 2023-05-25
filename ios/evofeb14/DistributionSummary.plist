@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>evoeurope.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>3</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>512B91AC3F2531F46F39D94D96C797BC64713DE5</string>
+				<key>dateExpires</key>
+				<string>09/01/24</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1.20.2.0</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>512B91AC3F2531F46F39D94D96C797BC64713DE5</string>
+						<key>dateExpires</key>
+						<string>09/01/24</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>IdensicMobileSDK.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>4MV25F6MQF</string>
+						<key>name</key>
+						<string>Evo Europe Sp.z.o.o.</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.20.2</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>4MV25F6MQF.com.evoeurope</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>4MV25F6MQF</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>evoeurope.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>f14b8d11-ac9b-4fdf-8a43-27652547a2ef</string>
+				<key>dateExpires</key>
+				<string>10/02/24</string>
+				<key>name</key>
+				<string>Evo_dev</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>4MV25F6MQF</string>
+				<key>name</key>
+				<string>Evo Europe Sp.z.o.o.</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
